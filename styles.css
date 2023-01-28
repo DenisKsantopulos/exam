@@ -65,7 +65,8 @@ html {
 
     margin-left: 3rem;
     margin-right: 3rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .button{
@@ -121,6 +122,9 @@ html {
   }
   .z1{
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: "Roboto";
   }
   .button2{
     border-radius: 0.5rem;
@@ -137,12 +141,22 @@ html {
     margin-bottom: 3rem;
     color:#18216D;
   }
+:focus{
+    background-color:coral;
+}
+button:hover{
+  background: linear-gradient(45deg,#0250c5,#d43f8d);
+  box-shadow: 1px 1px 2px blueviolet;
+  color:honeydew;
+  transform: scale(1.1);
+}
   .df{
     margin-top: 0.5rem;
-        width: 320px; 
+        width: 220px; 
         display: block;
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto;
+
   }
  /*  .pb{
     color: #18216D;
@@ -270,7 +284,9 @@ html {
 
 
   color: #FFFFFF;
+
 }
+
 @media screen and (min-width:1200px) {
 
   .nh{
